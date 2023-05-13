@@ -52,3 +52,45 @@ li {
 a:hover {
   text-decoration: underline;
 }
+figure {
+  margin-top: 10rem;
+  text-align: center;
+}
+#search {
+  width: 2rem;
+  vertical-align: middle;
+}
+#mic {
+  width: 1rem;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#section-1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  width: 28rem;
+  border-radius: 1rem;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgb(211, 211, 211);
+  border-right-color: rgb(211, 211, 211);
+  border-bottom-color: rgb(211, 211, 211);
+  border-left-color: rgb(211, 211, 211);
+}
+#center-div:hover {
+  box-shadow: 0.1rem 0.1rem 0.1rem #858080;
+}
+input {
+  width: 20rem;
+  border: none;
+  outline: none;
+}
