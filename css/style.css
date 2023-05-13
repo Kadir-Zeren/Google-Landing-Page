@@ -22,9 +22,10 @@ li {
   opacity: 1;
   cursor: pointer;
 }
-a {
+.header-a {
   text-decoration: none;
   color: black;
+  opacity: 0.7;
 }
 li {
   margin-left: 1rem;
@@ -89,8 +90,70 @@ figure {
 #center-div:hover {
   box-shadow: 0.1rem 0.1rem 0.1rem #858080;
 }
-input {
+#input-1 {
   width: 20rem;
   border: none;
   outline: none;
+}
+#section-2 {
+  text-align: center;
+}
+.section-2-input {
+  border: none;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  opacity: 0.7;
+  padding: 0.5rem;
+  background-color: white;
+}
+.section-2-input:hover {
+  opacity: 1;
+  cursor: pointer;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-radius: 0.5rem;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(211, 211, 211);
+  border-right-color: rgb(211, 211, 211);
+  border-bottom-color: rgb(211, 211, 211);
+  border-left-color: rgb(211, 211, 211);
+}
+#section-3 {
+  text-align: center;
+  margin-top: 2rem;
+}
+#footer-ul-r {
+  float: right;
+}
+hr {
+  position: relative;
+  bottom: -1rem;
+  opacity: 0.5;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(228, 228, 228, 0.5);
+}
+p {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+.footer-ul li {
+  margin-bottom: 1rem;
+}
+.footer-ul li a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+.footer-ul li a:hover {
+  text-decoration: underline;
 }
